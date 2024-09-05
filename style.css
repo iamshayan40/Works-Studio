@@ -423,7 +423,7 @@ footer #foot ul li {
     cursor: pointer;
 }
 
-/* Responsive Design */
+/* Responsive Mobile Design */
 
 @media (max-width: 600px) {
     * {
@@ -755,3 +755,314 @@ footer #foot ul {
     text-transform: uppercase;
 }
 }
+
+
+/* Media Query For Small Laptops  */
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for laptops and small desktops */
+   
+
+    .hidden {
+        display: none;
+    }
+    
+    #nav li {
+        margin-top: -60px;
+        margin-left: 5vw;
+        font-size: 2vw;
+        font-family: neue-thin;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    #close-btn {
+        cursor: pointer;
+        margin-right: 4vw;
+        transition: all 1s ease;
+        font-size: 2.3vw;
+        margin-top: -61px;
+        margin-left: 4vw;
+    }
+
+    #page1 h1 {
+        font-size: 8vw;
+        padding: 0 4vw;
+        line-height: 6vw;
+        font-weight: 100;
+        letter-spacing: -1px;
+        font-family: mainfont;
+    }
+
+    #loader {
+        height: 100vh;
+        width: 100%;
+        background-color: #000000;
+        position: fixed;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 99;
+        overflow: hidden;
+        /* display: none; */
+    }
+
+    #loader h1 {
+        font-size: 8vw;
+        padding: 0 4vw;
+        line-height: 6vw;
+        font-weight: 100;
+        letter-spacing: -1px;
+        margin-right: 7vw;
+        position: relative;
+        z-index: 9;
+        font-family: mainfont;
+    }
+
+    #elem h2 {
+        font-size: 11vw;
+        padding: 0 25px;
+        text-transform: uppercase;
+        font-weight: 100;
+        position: relative;
+        z-index: 9;
+        font-style: normal;
+        line-height: 8vw;
+        font-family: mainfont;
+    }
+
+    .image-container {
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .image-div {
+        height: 130vw;
+        width: 100vw;
+        background-color: aqua;
+        position: relative;
+        overflow: hidden;
+        margin: 3vw;
+    }
+    
+    
+footer {
+    height: 40vh;
+    width: 100%;
+    background-color: #ffffff;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+footer h2 {
+    font-family: neue-thin;
+    font-size: 2.2vw;
+    color: #000000;
+    cursor: pointer;
+}
+
+footer #back-btn {
+    font-size: 4vw;
+    font-weight: 100;
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: -35px;
+}
+
+footer #foot {
+    height: 30%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #foot h2 {
+    font-size: 2vw;
+    font-family: neue;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 4vw;
+}
+
+footer #foot ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5vw;
+    margin-right: 6vw;
+    font-size: 2vw;
+    font-family: neue;
+    text-transform: uppercase;
+}
+
+  }
+  
+
+  /* Media Queries for Large Screen Laptop  */
+
+  @media (min-width: 1025px) and (max-width: 1605px) {
+   
+.hidden {
+    display: none;
+}
+
+
+#nav li {
+    margin-top: -63px;
+    margin-left: 5vw;
+    font-size: 1vw;
+    font-family: neue-thin;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#close-btn {
+    cursor: pointer;
+    margin-right: 2.5vw;
+    transition: all 1s ease;
+    font-size: 1.3vw;
+    margin-top: -65px;
+    margin-left: 2.5vw;
+}
+
+
+#page1 h1 {
+    font-size: 7.3vw;
+    line-height: 5vw;
+    font-weight: 100;
+    letter-spacing: -5px;
+    font-family: mainfont;
+}
+
+#loader h1 {
+    font-size: 7vw;
+    line-height: 5vw;
+    font-weight: 100;
+    letter-spacing: -3px;
+    position: relative;
+    z-index: 9;
+    font-family: mainfont;
+}
+
+.image-container {
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image-div {
+    height: 40vw;
+    width: 30vw;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+    margin: 1vw;
+}
+
+footer #foot ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5vw;
+    margin-right: 2vw;
+    font-size: 1vw;
+    font-family: neue;
+    text-transform: uppercase;
+}
+  }
+  
+
+  @media (max-width: 412px) and (max-height: 846px) {
+    /* CSS rules for 412x846 resolution phone */
+
+    #page1 h1 {
+        font-size: 12vw;
+        line-height: 8vw;
+        font-weight: 100;
+        font-family: mainfont;
+    }
+    #close-btn {
+        cursor: pointer;
+        margin-right: 6vw;
+        transition: all 1s ease;
+        font-size: 6vw;
+        margin-top: -57px;
+        margin-left: 2.5vw;
+    }
+    #loader h1 {
+        font-size: 12vw;
+        line-height: 8vw;
+        font-weight: 100;
+        position: relative;
+        z-index: 9;
+        font-family: mainfont;
+    }
+    #loader {
+        height: 84vh;
+        width: 100%;
+        background-color: #000000;
+        position: fixed;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 99;
+        /* display: none; */
+    }
+    #page1 {
+        height: 84vh;
+        width: 100%;
+        background-color: #f5e41b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .nav2 h3 {
+        font-size: 5vw;
+        text-transform: uppercase;
+        font-family: neue-thin;
+        margin-left: -2vw;
+        margin-right: -1vw;
+    }
+
+    /* Styling for down-arrow */
+    .nav2 #down-arrow {
+        color: #000;
+        font-size: 10vw;
+        text-transform: uppercase;
+        font-family: neue-thin;
+        position: absolute;
+        top: -3\2vh;
+        left: 49%;
+        transform: translateX(-50%);
+    }
+    #loader .nav2 #down-arrow {
+        color: #ffffff;
+        font-size: 10vw;
+        text-transform: uppercase;
+        font-family: neue-thin;
+        position: absolute;
+        top: -2vh;
+        left: 45%;
+        transform: translateX(-50%);
+        position: relative;
+        z-index: 9;
+    }
+  }
+  
